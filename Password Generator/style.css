@@ -1,0 +1,151 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.password-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#password {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+#copy-btn {
+    background: #6c63ff;
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#copy-btn:hover {
+    background: #5a52d3;
+}
+
+.settings {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.setting {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.setting input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #6c63ff;
+}
+
+.setting label {
+    color: #555;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+    accent-color: #6c63ff;
+}
+
+.strength-meter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.strength-bar {
+    flex: 1;
+    height: 8px;
+    background: #e0e0e0;
+    border-radius: 4px;
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+.bar {
+    height: 100%;
+    width: 50%;
+    transition: all 0.3s;
+}
+
+#strength-text {
+    font-weight: 500;
+}
+
+#generate-btn {
+    background: #6c63ff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+#generate-btn:hover {
+    background: #5a52d3;
+}
+
+/* Tooltip for copy button */
+.tooltip {
+    position: absolute;
+    background: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
