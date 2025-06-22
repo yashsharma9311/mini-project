@@ -1,6 +1,6 @@
 document.getElementById('rollBtn').addEventListener('click', rollDice);
 
-function rollDice() {
+function rollDice() { 
     const dice = document.getElementById('dice');
     const rollBtn = document.getElementById('rollBtn');
     
