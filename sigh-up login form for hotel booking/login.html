@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hotel-container">
+        <div class="hotel-header">
+            <h1>Welcome Back to Luxury Stays</h1>
+            <p>Login to manage your bookings and special offers</p>
+        </div>
+        
+        <div class="hotel-form-container">
+            <form id="loginForm" class="hotel-form">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" placeholder="Enter your email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" placeholder="Enter your password" required>
+                </div>
+                
+                <div class="form-group remember-me">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember me</label>
+                </div>
+                
+                <button type="submit" class="hotel-btn">Login</button>
+            </form>
+            
+            <div class="form-footer">
+                <p>Don't have an account? <a href="index.html">Sign up here</a></p>
+                <p><a href="#">Forgot password?</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
