@@ -31,7 +31,7 @@ else if(number.length!=10){
 } 
 
  else if(!(email.includes('@') && email.includes('.com'))){
-    erremail.innerHTML=" Please Enter Valid Email"
+    erremail.innerHTML=" Please Enter Valid Email" 
     return false
 
 }

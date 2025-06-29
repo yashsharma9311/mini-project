@@ -26,7 +26,7 @@ async function checkWeather(city) {
         const temperature = data.main?.temp ?? "N/A";
         const humidity = data.main?.humidity ?? "N/A";
         const windSpeed = data.wind?.speed ?? "N/A";
-        const cityName = data.name ?? "N/A";
+        const cityName = data.name ?? "N/A"; 
         const weatherCondition = data.weather?.[0]?.main ?? "Clear";
 
         // Update DOM

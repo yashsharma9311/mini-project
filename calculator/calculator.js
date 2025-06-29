@@ -14,7 +14,7 @@ let press=(res)=>{
     show.innerHTML = result
 }
 
-let answer=()=>{
+let answer=()=>{ 
    result = eval(result).toString()
    show.innerHTML = result
 

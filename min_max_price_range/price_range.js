@@ -37,7 +37,7 @@ for (let i = 0; i < priceInputvalue.length; i++) {
                 minp = 0;
             }
         }
-
+ 
         // Check if the price gap is met and max price is within the range
         if (diff >= priceGap && maxp <= rangeInputvalue[1].max) {
             if (e.target.className === "min-input") {

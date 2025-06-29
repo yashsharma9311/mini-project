@@ -132,7 +132,7 @@ input[type="range"] {
     width: 100%;
     transition: background 0.3s;
 }
-
+ 
 #generate-btn:hover {
     background: #5a52d3;
 }

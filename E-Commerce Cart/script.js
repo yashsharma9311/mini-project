@@ -5,7 +5,7 @@ const products = [
     { id: 3, name: "airpords pro", price: 291.14, image: "https://i.gadgets360cdn.com/large/airpods_pro_2nd_generation_1702969555707.jpg" },
     { id: 4, name: "Keyboard", price: 169.57, image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQp8XFU7JqGcZd5E0dcrxZNSfGITjryFTwzE6_4J094_97bEtIEqd2pistlWmYQNhUNdeoYdRHrFAKoXaFcxIq4htHMTi3XzDZoVmQ4qYihFlqgi2azJ0h5sA" },
 ];
-
+ 
 let cart = [];
 
 // Display products

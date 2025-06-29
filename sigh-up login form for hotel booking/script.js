@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Redirect to booking page (you would create this page)
                 // window.location.href = 'booking.html';
             } else {
-                alert('Invalid email or password!');
+                alert('Invalid email or password!'); 
             }
         });
     }

@@ -24,7 +24,7 @@ header {
     display: flex;
     padding: 1rem;
     gap: 2rem;
-}
+} 
 
 .products {
     flex: 2;

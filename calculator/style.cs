@@ -10,7 +10,7 @@
 }
 
 td{
-    border-radius: 50%;
+    border-radius: 50%; 
     color: brown;
     font-size: 25px;
     text-align: center;
