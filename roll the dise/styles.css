@@ -13,7 +13,7 @@ body {
 }
 
 .dice {
-    width: 100px;
+    width: 100px; 
     height: 100px;  
     background-color: white;
     border-radius: 10px;

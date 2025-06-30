@@ -9,7 +9,7 @@ let press=(res)=>{
         else if (result === ""){
             return;
         }  
-    }
+    }               
     result = result+res
     show.innerHTML = result
 }

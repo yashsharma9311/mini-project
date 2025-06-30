@@ -45,7 +45,7 @@ function createDots(dice, number) {
         const dot = document.createElement('div');
         dot.className = 'dot';
         dot.style.left = `${pos[0]}%`;
-        dot.style.top = `${pos[1]}%`;
+        dot.style.top = `${pos[1]}%`;   
         dot.style.transform = 'translate(-50%, -50%)';
         dice.appendChild(dot);
     });  

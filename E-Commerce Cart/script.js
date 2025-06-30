@@ -6,7 +6,7 @@ const products = [
     { id: 4, name: "Keyboard", price: 169.57, image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQp8XFU7JqGcZd5E0dcrxZNSfGITjryFTwzE6_4J094_97bEtIEqd2pistlWmYQNhUNdeoYdRHrFAKoXaFcxIq4htHMTi3XzDZoVmQ4qYihFlqgi2azJ0h5sA" },
 ];
  
-let cart = [];
+let cart = []; 
           
 // Display products
 function displayProducts() {

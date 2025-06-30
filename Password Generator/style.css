@@ -141,7 +141,7 @@ input[type="range"] {
 .tooltip { 
     position: absolute;
     background: #333;
-    color: white; 
+    color: white;    
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 12px;

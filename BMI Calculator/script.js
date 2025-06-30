@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
  
         const bmi = (weight / (height * height)).toFixed(1);
         bmiValue.textContent = bmi;
-        updateStatus(bmi);
+        updateStatus(bmi);                          
     } 
 
     function updateStatus(bmi) {

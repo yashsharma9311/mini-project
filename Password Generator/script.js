@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Auto-generate on load                              
     generatePassword();                             
                                           
-    // Copy password to clipboard                               
+    // Copy password to clipboard                                 
     copyBtn.addEventListener('click', () => {                  
         if (!passwordField.value) return;                            
                                                                        

@@ -19,7 +19,7 @@ td:hover{
     background-color: rgb(71, 71, 71);
     transition: all 3s;
 } 
-.qual{
+.qual{                                                
       border-radius: 10px;
 } 
 .mode{ 

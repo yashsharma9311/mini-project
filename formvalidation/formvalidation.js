@@ -36,7 +36,7 @@ else if(number.length!=10){
  else if(password!==confirmpassword){
     errpassword.innerHTML=" Please Enter Password"
     
-    return false
+    return false 
 } 
 
 else if(!(password.match(/[1234567890]/))
