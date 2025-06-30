@@ -7,12 +7,12 @@
 body {
     display: flex;
     align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background: #ffffff;
-    flex-direction: column;
-}
-
+    justify-content: center;  
+    min-height: 100vh; 
+    background: #ffffff;   
+    flex-direction: column;   
+}   
+   
 .main { 
     background-color: #fff;
     border-radius: 15px;
@@ -20,12 +20,12 @@ body {
     padding: 20px;
     transition: transform 0.2s;
     width: 600px;
-}
-
+}   
+   
 .main:hover {
     transform: scale(1.05);
-}
-
+}    
+   
 .gfg {
     display: flex;
     align-items: center;
@@ -33,40 +33,40 @@ body {
     font-size: 24px;
     font-weight: 600;
     color: #01940b;
-}
-
+}   
+   
 .custom-wrapper {
     margin: 0;
     width: 70%;
     padding: 0px 25px 40px;
     position: relative;
     left: 63px;
-}
-
+}    
+    
 .header h2 {
     font-size: 30px;
     color: #01940b;
     display: flex;
     justify-content: center;
     padding: 20px;
-}
-
+}   
+    
 /* Styles for the price input container */
 .price-input-container {
     width: 100%;
-}
-
+}   
+   
 .price-input .price-field {
     display: flex;
     margin-bottom: 22px;
-}
-
+}   
+    
 .price-field span {
     margin-right: 10px;
     margin-top: 6px;
     font-size: 17px;
-}
-
+}   
+    
 .price-field input {
     flex: 1;
     height: 35px;
@@ -76,8 +76,8 @@ body {
     text-align: center;
     border: 0px;
     background: #e4e4e4;
-}
-
+}    
+     
 .price-input {
     width: 100%;
     font-size: 19px;

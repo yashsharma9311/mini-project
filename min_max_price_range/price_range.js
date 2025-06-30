@@ -22,12 +22,12 @@ for (let i = 0; i < priceInputvalue.length; i++) {
         }
 
         // Validate the input values
-        if (maxp > 10000) {
+        if (maxp > 10000) {    
             alert("maximum price cannot be greater than 10000");
             priceInputvalue[1].value = 10000;
             maxp = 10000;
         }
-
+    
         if (minp > maxp - priceGap) {
             priceInputvalue[0].value = maxp - priceGap;
             minp = maxp - priceGap;

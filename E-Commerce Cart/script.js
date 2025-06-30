@@ -7,7 +7,7 @@ const products = [
 ];
  
 let cart = [];
-
+          
 // Display products
 function displayProducts() {
     const productsContainer = document.getElementById("products");

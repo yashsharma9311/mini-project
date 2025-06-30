@@ -73,7 +73,7 @@ body {
 }
 
 .temperature { 
-    font-size: 48px;
+    font-size: 48px; 
     font-weight: 600;
     margin-bottom: 10px;
     color: #333;

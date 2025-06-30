@@ -8,7 +8,7 @@ let press=(res)=>{
         }
         else if (result === ""){
             return;
-        }
+        }  
     }
     result = result+res
     show.innerHTML = result
@@ -16,11 +16,11 @@ let press=(res)=>{
 
 let answer=()=>{ 
    result = eval(result).toString()
-   show.innerHTML = result
+   show.innerHTML = result 
 
 }
 
-let clr=()=>{
+let clr=()=>{ 
     result = ""
     show.innerHTML = result
 }

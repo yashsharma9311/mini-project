@@ -1,39 +1,39 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const passwordField = document.getElementById('password');
-    const copyBtn = document.getElementById('copy-btn');
-    const lengthSlider = document.getElementById('length');
-    const lengthValue = document.getElementById('length-value');
-    const uppercaseCheckbox = document.getElementById('uppercase');
-    const lowercaseCheckbox = document.getElementById('lowercase');
-    const numbersCheckbox = document.getElementById('numbers');
-    const symbolsCheckbox = document.getElementById('symbols');
-    const generateBtn = document.getElementById('generate-btn');
-    const strengthBar = document.getElementById('strength-bar');
-    const strengthText = document.getElementById('strength-text');
-
-    // Character sets 
-    const uppercaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    const lowercaseChars = 'abcdefghijklmnopqrstuvwxyz';
-    const numberChars = '0123456789';
-    const symbolChars = '!@#$%^&*()_+~`|}{[]:;?><,./-=';
-
-    // Update length display
-    lengthSlider.addEventListener('input', () => {
-        lengthValue.textContent = lengthSlider.value;
-    });
-
-    // Generate password on button click
-    generateBtn.addEventListener('click', generatePassword);
-
-    // Auto-generate on load
-    generatePassword();
-
-    // Copy password to clipboard
-    copyBtn.addEventListener('click', () => {
-        if (!passwordField.value) return;
-        
-        navigator.clipboard.writeText(passwordField.value);
-        
+    const passwordField = document.getElementById('password');    
+    const copyBtn = document.getElementById('copy-btn');    
+    const lengthSlider = document.getElementById('length');    
+    const lengthValue = document.getElementById('length-value');         
+    const uppercaseCheckbox = document.getElementById('uppercase');                
+    const lowercaseCheckbox = document.getElementById('lowercase');                  
+    const numbersCheckbox = document.getElementById('numbers');    
+    const symbolsCheckbox = document.getElementById('symbols');    
+    const generateBtn = document.getElementById('generate-btn');    
+    const strengthBar = document.getElementById('strength-bar');      
+    const strengthText = document.getElementById('strength-text');                                
+                         
+    // Character sets                                      
+    const uppercaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';                
+    const lowercaseChars = 'abcdefghijklmnopqrstuvwxyz';             
+    const numberChars = '0123456789';                                   
+    const symbolChars = '!@#$%^&*()_+~`|}{[]:;?><,./-=';                       
+                                       
+    // Update length display                                
+    lengthSlider.addEventListener('input', () => {                       
+        lengthValue.textContent = lengthSlider.value;                 
+    });                         
+                                          
+    // Generate password on button click                         
+    generateBtn.addEventListener('click', generatePassword);                
+                                       
+    // Auto-generate on load                              
+    generatePassword();                             
+                                          
+    // Copy password to clipboard                               
+    copyBtn.addEventListener('click', () => {                  
+        if (!passwordField.value) return;                            
+                                                                       
+        navigator.clipboard.writeText(passwordField.value);               
+                                                                      
         // Show tooltip
         const tooltip = document.createElement('span');
         tooltip.className = 'tooltip';

@@ -48,5 +48,5 @@ function createDots(dice, number) {
         dot.style.top = `${pos[1]}%`;
         dot.style.transform = 'translate(-50%, -50%)';
         dice.appendChild(dot);
-    }); 
+    });  
 }

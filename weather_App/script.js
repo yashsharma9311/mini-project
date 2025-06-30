@@ -22,7 +22,7 @@ async function checkWeather(city) {
             throw new Error(data.message || "City not found");
         }
 
-        // Safely access weather data
+        // Safely access weather data 
         const temperature = data.main?.temp ?? "N/A";
         const humidity = data.main?.humidity ?? "N/A";
         const windSpeed = data.wind?.speed ?? "N/A";

@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
             bmiStatus.textContent = 'Enter valid details';
             return;
         }
-
+ 
         const bmi = (weight / (height * height)).toFixed(1);
         bmiValue.textContent = bmi;
         updateStatus(bmi);

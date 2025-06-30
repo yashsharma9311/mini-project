@@ -21,19 +21,16 @@ if(name==""){
 else if(isNaN(number)){
     errnumber.innerHTML=" Please Enter Valid Number"
     return false
-
 } 
 
 else if(number.length!=10){
     errnumber.innerHTML=" Please Enter Valid 10 Digit Number"
     return false
-
 } 
 
  else if(!(email.includes('@') && email.includes('.com'))){
     erremail.innerHTML=" Please Enter Valid Email" 
     return false
-
 }
 
  else if(password!==confirmpassword){
@@ -49,5 +46,5 @@ else if(!(password.match(/[1234567890]/))
 ){
     errconfirmpassword.innerHTML="Please Enter correct password"
     return false
-}
+}  
 }
