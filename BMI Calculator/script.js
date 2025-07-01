@@ -23,17 +23,17 @@ document.addEventListener('DOMContentLoaded', () => {
         }
  
         const bmi = (weight / (height * height)).toFixed(1);
-        bmiValue.textContent = bmi;
-        updateStatus(bmi);                          
-    } 
-
-    function updateStatus(bmi) {
-        let status = '';
-        let color = '';
-
-        if (bmi < 18.5) {
-            status = 'Underweight';
-            color = '#3498db'; // Blue
+        bmiValue.textContent = bmi;    
+        updateStatus(bmi);                           
+    }              
+                                     
+    function updateStatus(bmi) {                    
+        let status = '';              
+        let color = '';                
+                               
+        if (bmi < 18.5) {                  
+            status = 'Underweight';                
+            color = '#3498db'; // Blue                          
         } else if (bmi >= 18.5 && bmi < 25) {
             status = 'Normal';
             color = '#2ecc71'; // Green
